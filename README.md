@@ -80,14 +80,6 @@ Para cumplir con la **Fase de Planeación**, entra a la pestaña **Projects** en
 
 ---
 
-### 3. Diagrama para la Fase de Modelado (Mermaid / Draw.io)
-Para subir la imagen que pide la guía en la sección de **Modelado**:
-
-1. Entra a [draw.io](https://app.diagrams.net/).
-2. Da clic en **Arrange > Insert > Advanced > Mermaid**.
-3. Pega este código para que te genere el diagrama automáticamente:
-
-
 ![Diagrama de Arquitectura del Bot](DIAGRAMA-BOT.drawio.png)
   
 # Retrospectiva del Proyecto - Práctica 1 
