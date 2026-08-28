@@ -36,11 +36,6 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
   * **Quiero** guardar el historial de interacciones en una base de datos local (SQLite),
   * **Para** evitar duplicar interacciones y llevar un control de auditoría.
 
-* **HU-04: Pruebas y Validación**
-  * **Como** ingeniero de calidad,
-  * **Quiero** contar con un conjunto de pruebas unitarias con Pytest,
-  * **Para** verificar que la lógica de validación e entrada funcione sin errores.
-
 ---
 
 ## Arquitectura del Proyecto
@@ -67,16 +62,6 @@ reddit-bot-master/
 pip install -r requirements.txt
 pytest
 python main.py
-
----
-
-### 2. Tareas para tu Tablero en *GitHub Projects*
-Para cumplir con la **Fase de Planeación**, entra a la pestaña **Projects** en tu repositorio de GitHub, crea un proyecto tipo **Board (Kanban)** y crea estas 4 tarjetas en la columna *To Do* / *Por Hacer* (asigna a los miembros de tu equipo en cada una):
-
-1. **[HU-01] Configuración del Entorno y Credenciales** (Asignar a Integrante 1)
-2. **[HU-02] Implementación de Módulos de Acciones (Bot Actions)** (Asignar a Integrante 2)
-3. **[HU-03] Configuración de la Base de Datos SQLite** (Asignar a Integrante 3)
-4. **[HU-04] Elaboración de Pruebas Unitarias y Documentación** (Asignar a Integrante 4)
 
 ---
 
