@@ -1,4 +1,4 @@
-# Reddit Bot Automation CLI 🤖
+# Reddit Bot Automation CLI 
 
 ## Descripción del Proyecto
 Este proyecto es un bot modular automatizado para Reddit desarrollado en Python. Permite la ejecución de tareas automatizadas en la plataforma como creación de publicaciones, interacción con comentarios, envío de mensajes directos, gestión de votos y seguimiento de usuarios, utilizando persistencia de datos SQLite para evitar duplicidad de acciones y mantener un registro estructurado.
@@ -99,7 +99,7 @@ graph TD
     E -->|DM| F
     C -->|Genera Reporte| G[Ghost Logger / Reportes
   
-# Retrospectiva del Proyecto - Práctica 1 🔄
+# Retrospectiva del Proyecto - Práctica 1 
 
 ### 1. ¿Qué funcionó bien?
 * La arquitectura modular en la carpeta `bot/actions/` facilitó la separación de responsabilidades y la integración de nuevas características.
