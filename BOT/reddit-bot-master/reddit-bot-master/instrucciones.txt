@@ -1,0 +1,17 @@
+# 1. Ir a la carpeta del proyecto
+Set-Location "C:\Users\mater\Documents\PROGRAMAS\BOT"
+
+# 2. Ejecutar las pruebas
+Push-Location ".\reddit-bot-master\reddit-bot-master"
+& "..\..\.venv\Scripts\python.exe" -m pytest -q
+Pop-Location
+
+# 3. Probar el bot sin realizar acciones
+Push-Location ".\reddit-bot-master\reddit-bot-master"
+& "..\..\.venv\Scripts\python.exe" main.py -a accounts.txt -l links.txt --verbose --dry-run
+Pop-Location
+
+# 4. Ejecutar el bot realmente
+Push-Location ".\reddit-bot-master\reddit-bot-master"
+& "..\..\.venv\Scripts\python.exe" main.py -a accounts.txt -l links.txt --verbose
+Pop-Location
