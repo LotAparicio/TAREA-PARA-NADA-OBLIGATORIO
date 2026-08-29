@@ -1,5 +1,3 @@
-
-
 ## Descripción del Proyecto
 Este proyecto es un bot modular automatizado para Reddit desarrollado en Python. Permite la ejecución de tareas automatizadas en la plataforma como creación de publicaciones, interacción con comentarios, envío de mensajes directos, gestión de votos y seguimiento de usuarios, utilizando persistencia de datos SQLite para evitar duplicidad de acciones y mantener un registro estructurado.
 
