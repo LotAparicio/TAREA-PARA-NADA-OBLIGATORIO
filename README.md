@@ -36,7 +36,6 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
 
 ---
 ## Arquitectura del Proyecto
-## Arquitectura del Proyecto
 
 ```text
 .
@@ -52,6 +51,8 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
 ├── reddit_bot.db     # Base de datos SQLite local
 └── requirements.txt  # Lista de dependencias del proyecto
 ---
+
+```
 
 ## Instrucciones de Ejecución
 
