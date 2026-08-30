@@ -36,7 +36,9 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
 
 ---
 ## Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
+```text
 .
 ├── bot/
 │   ├── actions/      # Módulos de acciones (comment, post, vote, dm, follow)
@@ -49,7 +51,6 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
 ├── README.md         # Documentación del repositorio
 ├── reddit_bot.db     # Base de datos SQLite local
 └── requirements.txt  # Lista de dependencias del proyecto
-
 ---
 
 ## Instrucciones de Ejecución
