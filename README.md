@@ -35,18 +35,20 @@ Elegimos este proyecto porque responde a la necesidad real de automatizar tareas
   * **Para** evitar duplicar interacciones y llevar un control de auditoría.
 
 ---
-
 ## Arquitectura del Proyecto
-reddit-bot-master/
+
+.
 ├── bot/
 │   ├── actions/      # Módulos de acciones (comment, post, vote, dm, follow)
 │   ├── utils/        # Validadores, parser de entradas, credenciales
 │   ├── database.py   # Control de base de datos SQLite
 │   └── bot.py        # Motor principal del bot
 ├── tests/            # Pruebas unitarias automatizadas (pytest)
-├── main.py           # Punto de entrada ejecutable CLI
 ├── config.example.yaml
-└── requirements.txt
+├── main.py           # Punto de entrada ejecutable CLI
+├── README.md         # Documentación del repositorio
+├── reddit_bot.db     # Base de datos SQLite local
+└── requirements.txt  # Lista de dependencias del proyecto
 
 ---
 
